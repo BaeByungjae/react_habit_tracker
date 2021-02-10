@@ -1,0 +1,93 @@
+@import "./reset.css";
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.habit {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  list-style: none;
+  margin-left: 0.5em;
+}
+.habit-count {
+  display: inline-block;
+  color: white;
+  background-color: darkseagreen;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 2rem;
+  margin-left: 0.2em;
+  margin-right: 0.5em;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.habit-button {
+  font-size: 2.5rem;
+  max-width: 100%;
+  margin: 0 0.1em;
+  background-color: transparent;
+}
+
+.habit-button:hover {
+  opacity: 0.8;
+}
+
+.habit-increase,
+.habit-decrease {
+  color: goldenrod;
+}
+.habit-delete {
+  font-size: 2rem;
+  color: darkred;
+}
+.reset-button {
+  border: 1px solid black;
+  margin: 0.5em;
+  margin-left: 1.5em;
+  width: 5rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+.input-text {
+  width: 20rem;
+  height: 1.5em;
+  margin: 1em;
+  margin-right: 0.5em;
+}
+.input-btn {
+  border: 1px solid black;
+  width: 4em;
+  height: 2em;
+  font-size: 1em;
+}
+.navbar {
+  background-color: blanchedalmond;
+  height: 4rem;
+  line-height: 4rem;
+  padding-left: 2rem;
+}
+.navbar-icon {
+  color: green;
+  font-size: 1.8em;
+  margin-right: 0.4em;
+}
+.navbar-text {
+  font-size: 1.8em;
+  margin-right: 0.4em;
+}
+.navbar-count {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  color: white;
+  font-size: 1.7rem;
+  border-radius: 50%;
+  background-color: green;
+}
